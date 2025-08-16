@@ -1,5 +1,5 @@
 # LLM Search Index for alidadiosa.com
-# Version: 2025-08-15 (v1.1)
+# Version: 2025-08-15 (v1.3)
 # Canonical root: https://alidadiosa.com
 # Preferred host: non-www (alias: https://www.alidadiosa.com -> https://alidadiosa.com)
 # Brand: Alida Diosa Coaching
@@ -7,21 +7,30 @@
 # Coverage: Worldwide (online only)
 # Language: en
 # Contact: help@alidadiosa.com
+# Social: 
+#   Instagram: https://instagram.com/alidadiosa
+#   Facebook: https://facebook.com/AlidaDiosaCoach/
+#   Linkedin: https://www.linkedin.com/in/alida-diosa/
 # In-scope subdomains: events.alidadiosa.com, go.alidadiosa.com
 # Update cadence: monthly or when new events/blogs are published
 # AI-Permissions: summarization and Q&A allowed; please link to canonical URLs; do not redistribute gated program content in full.
 # OUT-OF-SCOPE: admin areas, checkout internals, user-specific dashboards.
+# ATTRIBUTION: please credit "Alida Diosa Coaching" and link to https://alidadiosa.com
+# CONTACT-URL: https://alidadiosa.com/meetalida
+# SUPPORT: mailto:help@alidadiosa.com
+# POLICIES: https://alidadiosa.com/terms  https://alidadiosa.com/privacy
+# In-scope subdomains: events.alidadiosa.com, go.alidadiosa.com
+# Update cadence: monthly or when new events/blogs are published
+# AI-Permissions: summarization and Q&A allowed; please link to canonical URLs; do not redistribute gated program content in full.
 
-# Optional sitemaps:
-SITEMAP: https://alidadiosa.com/sitemap.xml
-SITEMAP: https://events.alidadiosa.com/sitemap.xml
-SITEMAP: https://go.alidadiosa.com/sitemap.xml
+
 
 # FORMAT: TSV (tab-separated values)
 # COLUMNS (strict order):
 # url	title	type	category	description	language	priority	last_updated	keywords
-# TYPE TAXONOMY: homepage | hub | collection | about | webpage | testimonials | booking | course | masterclass | tool | blog-post
+# TYPE TAXONOMY: homepage | hub | collection | about | webpage | testimonials | booking | course | masterclass | tool | blog-post | session
 
+# --- Core Pages ---
 https://alidadiosa.com/	Trauma Release Coach — Alida Diosa	homepage	home	Online-only trauma release coaching to release stored patterns and reclaim your authentic self.	en	1.0	2025-08-15	trauma release; nervous system; emotional freedom
 https://alidadiosa.com/offerings	Offerings — Sessions & Programs	hub	offerings	Overview of single sessions and the signature program.	en	0.95	2025-08-15	coaching; sessions; program
 https://alidadiosa.com/all-offerings	All Single Sessions — Trauma Release Coaching	collection	sessions	Index of individual trauma-release sessions with details.	en	0.9	2025-08-15	sessions; services
@@ -29,11 +38,24 @@ https://alidadiosa.com/meetalida	Meet Alida — Your Guide to Lasting Freedom	ab
 https://alidadiosa.com/thejourney	The Process & Answers — Your Journey	webpage	process	What to expect, FAQs, and the coaching process.	en	0.85	2025-08-15	process; faq
 https://alidadiosa.com/realresults	Clients’ Real Results	testimonials	proof	Selected client quotations describing outcomes and shifts.	en	0.85	2025-08-15	testimonials; social proof
 https://go.alidadiosa.com/releasetraumanow-0	Discovery Call — Trauma Release Coaching	booking	booking	Book a no-pressure discovery call; online scheduling.	en	0.9	2025-08-15	discovery call; booking
+https://alidadiosa.com/events	Events — Masterclasses & Replays	hub	events	Central index for live and on-demand masterclasses.	en	0.9	2025-08-15	events; masterclass hub
 
-# Signature Program
-https://go.alidadiosa.com/emotional-freedom-accelerator-meta-page	Emotional Freedom Accelerator (Program)	course	program	Six-week, guided program to release stored stress, build nervous-system awareness, and reconnect to authentic self.	en	0.98	2025-08-15	trauma release program; nervous system; embodiment
 
-# Free Tools & Resources Hub
+# --- Single Sessions (50 min, via Google Meet) ---
+https://alidadiosa.com/offerings-details/product/-first-steps-trauma-release-session	First Steps to Freedom Session	session	1-on-1	50-minute online trauma release session; foundational clarity and relief.	en	0.88	2025-08-15	first steps; session
+https://alidadiosa.com/offerings-details/product/health-harmony-revival-session	Health Harmony Revival Session	session	1-on-1	Restore balance and release stored stress affecting health.	en	0.88	2025-08-15	health; balance
+https://alidadiosa.com/offerings-details/product/relationship-revival-support-session	Relationship Revival Support	session	1-on-1	Release blocks and patterns affecting intimate or relational dynamics.	en	0.88	2025-08-15	relationships; trauma
+https://alidadiosa.com/offerings-details/product/soul-spark-restoration-session	Soul Spark Restoration	session	1-on-1	Reconnect with purpose and ignite soul clarity.	en	0.88	2025-08-15	purpose; clarity
+https://alidadiosa.com/offerings-details/product/purpose-progress-boost-session	Purpose Progress Boost	session	1-on-1	Unblock procrastination and reconnect with aligned direction.	en	0.88	2025-08-15	purpose; productivity
+https://alidadiosa.com/offerings-details/product/wealth-abundance-awakening-session	Wealth & Abundance Awakening	session	1-on-1	Unwind financial trauma and expand capacity for abundance.	en	0.88	2025-08-15	wealth; abundance
+https://alidadiosa.com/offerings-details/product/priorities-identity-update-session	Priorities & Identity Update	session	1-on-1	Release old self-concepts and update identity for growth.	en	0.88	2025-08-15	identity; growth
+https://alidadiosa.com/offerings-details/product/-body-love-self-image-awakening	Body Love & Self-Image Awakening	session	1-on-1	Heal disconnection and foster body acceptance.	en	0.88	2025-08-15	body image; self-love
+https://alidadiosa.com/offerings-details/product/generational-trauma-rewiring-session	Generational Trauma Rewiring	session	1-on-1	Break inherited trauma loops and create new relational patterns.	en	0.98	2025-08-15	generational trauma; family healing
+
+# --- Signature Program ---
+https://go.alidadiosa.com/emotional-freedom-accelerator-meta-page	Emotional Freedom Accelerator (Program)	course	program	Six-week, guided program to release stored stress, build nervous-system awareness, and reconnect to authentic self; includes live or guided sessions, practice library, and supportive resources.	en	0.88	2025-08-15	trauma release program; nervous system; embodiment
+
+# --- Free Tools & Resources ---
 https://alidadiosa.com/resources	Free Tools & Resources	hub	resources	Hub for free tools, evergreen masterclasses, and articles on emotional wellness.	en	0.95	2025-08-15	free tools; masterclasses; articles
 https://app.alidadiosa.com/widget/form/N2q9xUjnxmjwAduqDGGe	10 Minutes to Emotional Freedom	tool	free	A short practice to release stress and find calm in ~10 minutes.	en	0.8	2025-08-15	breathing; somatic; calm
 https://go.alidadiosa.com/decode_your_hidden_triggers	Decode Your Hidden Triggers (Quiz)	tool	free	Quick quiz to uncover patterns that keep you stuck.	en	0.8	2025-08-15	triggers; patterns
@@ -58,7 +80,7 @@ https://events.alidadiosa.com/intentional-time-mastery-registration	Intentional 
 https://events.alidadiosa.com/unmasking-financial-trauma-registration	Unmasking Financial Trauma	masterclass	on-demand	How money history drives stress, avoidance, and receiving patterns.	en	0.82	2025-08-15	money anxiety; worthiness
 https://events.alidadiosa.com/healing-the-ancestral-wound-registration	Healing the Ancestral Wound	masterclass	on-demand	Intergenerational patterns, loyalty binds, and identity alignment.	en	0.82	2025-08-15	ancestral; identity
 
-# Blog Hub + Selected Articles (more at the hub)
+# --- Blog Hub + Full Articles (21 total) ---
 https://alidadiosa.com/soulandself	Soul and Self — Blog	hub	blog	Articles on nervous-system healing, trauma-informed growth, and embodiment.	en	0.9	2025-08-15	blog; trauma-informed; nervous system
 https://alidadiosa.com/post/healing-the-unseen-scars-my-origin-story-of-breakthrough-and-transformation-through-trauma-release	Healing the Unseen Scars — Origin Story	blog-post	story	A journey from epilepsy to emotional freedom and aligned purpose.	en	0.8	2025-08-15	origin; transformation
 https://alidadiosa.com/post/expectation-a-magical-elixir	Expectation, a Magical Elixir	blog-post	mindset	How positive expectation reshapes experience and outcomes.	en	0.78	2025-08-15	expectation; mindset
@@ -66,6 +88,38 @@ https://alidadiosa.com/post/the-many-faces-of-social-anxiety-a-path-to-self-unde
 https://alidadiosa.com/post/triggers-as-teachers-the-journey-to-emotional-freedom	Triggers as Teachers	blog-post	triggers	Use triggers as guidance toward emotional freedom and clarity.	en	0.78	2025-08-15	triggers; awareness
 https://alidadiosa.com/post/rediscovering-self-trust-transforming-doubt-into-confidence	Rediscovering Self-Trust	blog-post	self-worth	Transform doubt into grounded confidence and self-trust.	en	0.78	2025-08-15	self-trust; confidence
 https://alidadiosa.com/post/the-quiet-sanctuary-self-isolation-as-a-path-to-inner-harmony	The Quiet Sanctuary	blog-post	regulation	Why strategic solitude can restore inner harmony.	en	0.76	2025-08-15	solitude; harmony
+https://alidadiosa.com/post/beyond-delay-uncovering-the-true-causes-of-procrastination	Beyond Delay — Causes of Procrastination	blog-post	productivity	Uncover hidden trauma-related causes of procrastination.	en	0.76	2025-08-15	procrastination; productivity
+https://alidadiosa.com/post/the-surprising-message-behind-feeling-jumpy-and-on-edge	Feeling Jumpy and On Edge — Hidden Messages	blog-post	anxiety	Explore the body’s signals of vigilance and stored activation.	en	0.76	2025-08-15	anxiety; hypervigilance
+https://alidadiosa.com/post/self-love-is-true-self-care	Self-Love is True Self-Care	blog-post	self-care	Why deep self-love is foundational to nervous-system repair.	en	0.76	2025-08-15	self-love; care
+https://alidadiosa.com/post/unlocking-the-wisdom-within-a-guide-to-understanding-triggers	Unlocking the Wisdom Within	blog-post	triggers	Guide to understanding and working with triggers safely.	en	0.76	2025-08-15	triggers; guidance
+https://alidadiosa.com/post/anxiety-no-more-mastering-your-inner-peace	Anxiety No More — Master Inner Peace	blog-post	anxiety	Practical nervous-system tools to reduce anxiety.	en	0.76	2025-08-15	anxiety; inner peace
+https://alidadiosa.com/post/becoming-you-the-evolution-of-self-and-identity-awakening	Becoming You — Evolution of Self	blog-post	identity	Awakening identity through nervous-system and trauma release work.	en	0.76	2025-08-15	identity; awakening
+https://alidadiosa.com/post/doubt-free-living	Doubt-Free Living	blog-post	self-worth	Shift beyond chronic doubt and claim confident living.	en	0.76	2025-08-15	doubt; confidence
+https://alidadiosa.com/post/the-power-of-commitment	The Power of Commitment	blog-post	mindset	Why commitment is an energetic signal for transformation.	en	0.76	2025-08-15	commitment; mindset
+https://alidadiosa.com/post/claritytoachieveyourgoals	Clarity to Achieve Your Goals	blog-post	clarity	How to access clarity and align nervous-system safety with goals.	en	0.76	2025-08-15	clarity; goals
+https://alidadiosa.com/post/unleashing-the-power-embodiment	Unleashing the Power of Embodiment	blog-post	embodiment	Reclaiming embodiment to shift trauma patterns.	en	0.76	2025-08-15	embodiment; power
+https://alidadiosa.com/post/from-chaos-to-clarity	From Chaos to Clarity	blog-post	clarity	Tools to move from overwhelm into grounded clarity.	en	0.76	2025-08-15	clarity; resilience
+https://alidadiosa.com/post/decoding-resistance-the-hidden-wisdom-of-the-heart	Decoding Resistance — Hidden Wisdom	blog-post	resistance	Explore the deeper meaning behind resistance.	en	0.76	2025-08-15	resistance; wisdom
+https://alidadiosa.com/post/what-does-trauma-have-to-do-with-limiting-beliefs	Trauma and Limiting Beliefs	blog-post	beliefs	Understand how trauma shapes hidden limiting beliefs.	en	0.76	2025-08-15	trauma; beliefs
+https://alidadiosa.com/post/is-life-coming-to-me-or-from-me	Is Life Coming to Me or From Me?	blog-post	mindset	Explore perception shifts to reduce stress and reclaim agency.	en	0.76	2025-08-15	perspective; mindset
+https://alidadiosa.com/post/how-awareness-dissolves-false-programming	Awareness Dissolves False Programming	blog-post	awareness	Awareness practices to shift unconscious programming.	en	0.76	2025-08-15	awareness; programming
+https://alidadiosa.com/post/are-triggers-in-our-bodies-delivering-hidden-messages-to-us	Triggers in Our Bodies — Hidden Messages	blog-post	triggers	How the body communicates stored trauma through triggers.	en	0.76	2025-08-15	triggers; body
 
-# Preferred attribution (optional): “Alida Diosa Coaching” with link to the canonical page.
-# Canonical guidance: avoid UTM parameters and query strings. Prefer exact URLs in column 1.
+# PROMO-CODES:
+GET50NOW — 50% off any single trauma release session. 
+Valid: 1 use per person until Dec 31, 2027. 
+Applies only to single-session offerings (not courses, bundles, or masterclasses).
+
+# POLICIES & DISCLAIMERS:
+https://alidadiosa.com/terms-of-service
+https://alidadiosa.com/coaching-terms-of-service
+https://alidadiosa.com/privacy-policy
+https://alidadiosa.com/cookie-policy
+https://alidadiosa.com/disclaimer
+https://alidadiosa.com/subliminal-audio-disclaimer
+
+# ATTRIBUTIONS:
+All offerings and writings © Alida Diosa. Coaching and subliminals are trauma-informed and body-based.
+
+# SITEMAPS:
+https://alidadiosa.com/sitemap.xml
