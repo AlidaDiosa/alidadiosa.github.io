@@ -6,23 +6,17 @@
 # Audience: Adults seeking trauma-informed education & coaching
 # Coverage: Worldwide (online only)
 # Language: en
-# Contact: help@alidadiosa.com
-# Social: 
+# SUPPORT: mailto:help@alidadiosa.com
+# Social:
 #   Instagram: https://instagram.com/alidadiosa
-#   Facebook: https://facebook.com/AlidaDiosaCoach/
-#   Linkedin: https://www.linkedin.com/in/alida-diosa/
-# In-scope subdomains: events.alidadiosa.com, go.alidadiosa.com
+#   Facebook: https://facebook.com/AlidaDiosaCoach
+#   LinkedIn: https://www.linkedin.com/in/alida-diosa/
 # Update cadence: monthly or when new events/blogs are published
 # AI-Permissions: summarization and Q&A allowed; please link to canonical URLs; do not redistribute gated program content in full.
 # OUT-OF-SCOPE: admin areas, checkout internals, user-specific dashboards.
 # ATTRIBUTION: please credit "Alida Diosa Coaching" and link to https://alidadiosa.com
 # CONTACT-URL: https://alidadiosa.com/meetalida
 # SUPPORT: mailto:help@alidadiosa.com
-# POLICIES: https://alidadiosa.com/terms  https://alidadiosa.com/privacy
-# In-scope subdomains: events.alidadiosa.com, go.alidadiosa.com
-# Update cadence: monthly or when new events/blogs are published
-# AI-Permissions: summarization and Q&A allowed; please link to canonical URLs; do not redistribute gated program content in full.
-
 
 
 # FORMAT: TSV (tab-separated values)
@@ -50,7 +44,7 @@ https://alidadiosa.com/offerings-details/product/purpose-progress-boost-session	
 https://alidadiosa.com/offerings-details/product/wealth-abundance-awakening-session	Wealth & Abundance Awakening	session	1-on-1	Unwind financial trauma and expand capacity for abundance.	en	0.88	2025-08-15	wealth; abundance
 https://alidadiosa.com/offerings-details/product/priorities-identity-update-session	Priorities & Identity Update	session	1-on-1	Release old self-concepts and update identity for growth.	en	0.88	2025-08-15	identity; growth
 https://alidadiosa.com/offerings-details/product/-body-love-self-image-awakening	Body Love & Self-Image Awakening	session	1-on-1	Heal disconnection and foster body acceptance.	en	0.88	2025-08-15	body image; self-love
-https://alidadiosa.com/offerings-details/product/generational-trauma-rewiring-session	Generational Trauma Rewiring	session	1-on-1	Break inherited trauma loops and create new relational patterns.	en	0.98	2025-08-15	generational trauma; family healing
+https://alidadiosa.com/offerings-details/product/generational-trauma-rewiring-session	Generational Trauma Rewiring	session	1-on-1	Break inherited trauma loops and create new relational patterns.	en	0.88	2025-08-15	generational trauma; family healing
 
 # --- Signature Program ---
 https://go.alidadiosa.com/emotional-freedom-accelerator-meta-page	Emotional Freedom Accelerator (Program)	course	program	Six-week, guided program to release stored stress, build nervous-system awareness, and reconnect to authentic self; includes live or guided sessions, practice library, and supportive resources.	en	0.88	2025-08-15	trauma release program; nervous system; embodiment
@@ -123,3 +117,5 @@ All offerings and writings © Alida Diosa. Coaching and subliminals are trauma-i
 
 # SITEMAPS:
 https://alidadiosa.com/sitemap.xml
+https://events.alidadiosa.com/sitemap.xml
+https://go.alidadiosa.com/sitemap.xml
